@@ -1,0 +1,10 @@
+[lcl-host]
+realm-apid = 'localhost'
+
+[org]
+apid = 'xodonoghue-64d629'
+
+[service]
+apid = 'beat-central'
+category = 'javascript'
+cert-style = 'acme'
