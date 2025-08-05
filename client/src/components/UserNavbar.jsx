@@ -28,8 +28,11 @@ const UserNavbar = () => {
           <a onClick={() => {navigate("/upload-beat")}} className="hover:text-neutral-200">
             Upload Beat
           </a>
-          <a onClick={() => {navigate("/manage-store")}} className="hover:text-neutral-200">
+        <a onClick={() => {navigate("/manage-store")}} className="hover:text-neutral-200">
             Manage Store
+          </a>
+          <a onClick={() => {navigate("/tasks")}} className="hover:text-neutral-200">
+            Tasks
           </a>
           <a onClick={() => {navigate("/account")}} className="hover:text-neutral-200">
             Manage Account
