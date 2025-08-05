@@ -16,6 +16,7 @@ import PaymentSuccess from './components/PaymentSuccess';
 import LandingPage from './components/LandingPage';
 import Account from './components/Account';
 import ManageStore from './components/ManageStore';
+import Tasks from './components/Tasks';
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
         <Route path="/checkout" element={<Checkout/>}/>
         <Route path="/payment-success" element={<PaymentSuccess/>}/>
         <Route path="/account" element={<Account/>}/>
+        <Route path="/tasks" element={<Tasks/>}/>
       </Routes>
     </BrowserRouter>
   )
